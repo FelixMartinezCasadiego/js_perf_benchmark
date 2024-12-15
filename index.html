@@ -11,52 +11,54 @@
   </head>
   <body>
     <main class="container">
-      <h2>Global</h2>
+      <div class="content">
+        <h2>Global</h2>
 
-      <textarea id="global" class="code" rows="1">
-const data = [...Array(1000).keys()]</textarea
-      >
+        <textarea id="global" class="code" rows="1">
+  const data = [...Array(1000).keys()]</textarea
+        >
 
-      <h2>Test cases</h2>
-      <div class="test-cases">
-        <article class="test-case">
-          <header>
-            <span class="text-id">1</span>
-            <span class="ops"></span>
-          </header>
+        <h2>Test cases</h2>
+        <div class="test-cases">
+          <article class="test-case">
+            <header>
+              <span class="text-id">1</span>
+              <span class="ops"></span>
+            </header>
 
-          <textarea class="code" rows="1">data.find(x=> x== 100)</textarea>
-        </article>
+            <textarea class="code" rows="1">data.find(x=> x== 100)</textarea>
+          </article>
 
-        <article class="test-case">
-          <header>
-            <span class="text-id">2</span>
-            <span class="ops"></span>
-          </header>
+          <article class="test-case">
+            <header>
+              <span class="text-id">2</span>
+              <span class="ops"></span>
+            </header>
 
-          <textarea class="code" rows="1">data.find(x=> x== 200)</textarea>
-        </article>
+            <textarea class="code" rows="1">data.find(x=> x== 200)</textarea>
+          </article>
 
-        <article class="test-case">
-          <header>
-            <span class="text-id">2</span>
-            <span class="ops"></span>
-          </header>
+          <article class="test-case">
+            <header>
+              <span class="text-id">2</span>
+              <span class="ops"></span>
+            </header>
 
-          <textarea class="code" rows="1">data.find(x=> x== 300)</textarea>
-        </article>
+            <textarea class="code" rows="1">data.find(x=> x== 300)</textarea>
+          </article>
 
-        <article class="test-case">
-          <header>
-            <span class="text-id">2</span>
-            <span class="ops"></span>
-          </header>
+          <article class="test-case">
+            <header>
+              <span class="text-id">2</span>
+              <span class="ops"></span>
+            </header>
 
-          <textarea class="code" rows="1">data.find(x=> x== 400)</textarea>
-        </article>
+            <textarea class="code" rows="1">data.find(x=> x== 400)</textarea>
+          </article>
+        </div>
+
+        <button class="send-button">Benchmark code!</button>
       </div>
-
-      <button class="send-button">Benchmark code!</button>
 
       <div class="chart-container">
         <svg class="chart" viewBox="0 0 200 300">
